@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment</title>
+    <style>
+      .container, .header {
+        border: 1px solid black;
+      }
+      .top-box , .address-box{
+        display: flex;
+      }
+      
+      p {
+        margin: 5px;
+      }
+      h1 {
+        margin: 5px;
+      }
+     .top-box table {
+        border: 1px solid black;
+        width: 50%;
+        text-align: center;
+      }
+      
+     .address-box table{
+        border: 1px solid black;
+        width: 100%;
+        text-align: center;
+        border-collapse: collapse;
+      }
+     .address-box th{
+        border: 1px solid black;
+        text-align: center;
+      }
+      .desc table{border: 1px solid black;
+        width: 100%;
+        text-align: center;
+        border-collapse: collapse;}
+        
+        .desc tr td{
+        border: 1px solid black;        
+        text-align: left;
+        border-collapse: collapse;
+    padding: 10px;}
+    .desc table tfoot tr td{
+        text-align: center;
+        font-weight: 800;
+    }
+    pre{
+        margin: 0px;    
+    }
+    .footer{
+        padding: 25px;
+        text-align: center;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Zylker Electronic Hub</h1>
+        <p>Northern Street</p>
+        <p>Greater South Avenue</p>
+        <p>New York</p>
+        <p>New York 10001, USA</p>
+      </div>
+      <div class="top-box">
+        <table>
+          <tr>
+            <td>Invoice</td>
+            <td>IND-128</td>            
+          </tr>
+          <tr>
+            <td>Invoice Date</td>
+            <td>5th August, 2006</td>
+            
+          </tr>
+          <tr>
+            <td>Terms</td>
+            <td>Due on Receipt</td>
+            
+          </tr>
+          <tr>
+            <td>Due Date</td>
+            <td>19.01.2005</td>
+          </tr>
+        </table>
+        <table>
+          <tr rowspan="4">
+            <td></td>
+          </tr>
+        </table>
+        
+      </div>
+      <div class="address-box">
+      <table>
+        <tr>
+            <th>Bill To</th>        
+          </tr>
+          <tr>
+            <td><strong> Mary D. Dunton</strong></td>            
+          </tr>
+          <tr>
+            <td>1324 Hinkle Lake Road</td>            
+          </tr>
+          <tr>
+            <td>Needham</td>            
+          </tr>
+          <tr>
+            <td>02192 Maine</td>            
+          </tr>
+        </table>
+        <table>
+        <tr>
+            <th>Ship To</th>        
+          </tr>
+          <tr>
+            <td><pre> </pre></td>            
+          </tr>
+          <tr>
+            <td>1324 Hinkle Lake Road</td>            
+          </tr>
+          <tr>
+            <td>Needham</td>            
+          </tr>
+          <tr>
+            <td>02192 Maine</td>            
+          </tr>
+        </table>
+        </div>
+        <div class="desc">
+            <table>
+        <tr>
+            <td>#</td>                  
+            <td>Item Description</td>                      
+            <td>Qty</td>                      
+            <td>Rate</td>                      
+            <td>Amount</td>            
+          </tr>
+          <tr>
+            <td>1.</td>                  
+            <td>
+                <strong>Camera</strong><br>
+                DSLR Camera with Advance Shooting Capabilities
+            </td> 
+            <td>1.00</td>                      
+            <td>$899.00</td>                      
+            <td>899.00</td>            
+          </tr>
+          <tr>
+            <td>2.</td>                  
+            <td>
+                <strong>Fitness Tracker</strong><br>
+                Activity Tracker with heart rate monitering Capabilities
+            </td>                      
+            <td>1.00</td>                      
+            <td>$129.00</td>                      
+            <td>129.00</td>            
+          </tr>
+          <tr>
+            <td>3.</td>                  
+            <td>
+                <strong>Laptop</strong><br>
+                Lightweight laptop with a powerfull processor Capabilities
+            </td>                      
+            <td>1.00</td>                      
+            <td>$1199.00</td>                      
+            <td>$1199.00</td>            
+          </tr>
+          <tfoot>
+            <td colspan="4">SubTotal</td>                  
+            <td>                
+                $2,227.00
+            </td>                                  
+          </tfoot>        
+        </table>
+        </div>
+        <div class="footer">
+            <h2>INVOICE</h2>
+        </div>
+    </div>
+  </body>
+</html>
